@@ -9,23 +9,32 @@
 /* Begin PBXBuildFile section */
 		A1182E182B5D03C500824782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1182E172B5D03C500824782 /* AppDelegate.swift */; };
 		A1182E1A2B5D03C500824782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1182E192B5D03C500824782 /* SceneDelegate.swift */; };
-		A1182E1C2B5D03C500824782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1182E1B2B5D03C500824782 /* ViewController.swift */; };
-		A1182E1F2B5D03C500824782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1182E1D2B5D03C500824782 /* Main.storyboard */; };
 		A1182E222B5D03C500824782 /* ContactsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1182E202B5D03C500824782 /* ContactsApp.xcdatamodeld */; };
 		A1182E242B5D03C700824782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1182E232B5D03C700824782 /* Assets.xcassets */; };
 		A1182E272B5D03C700824782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1182E252B5D03C700824782 /* LaunchScreen.storyboard */; };
+		A1182E322B5D048900824782 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1182E312B5D048900824782 /* LogInViewController.swift */; };
+		A1182E342B5D04F800824782 /* MyContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1182E332B5D04F800824782 /* MyContactsViewController.swift */; };
+		A1182E422B5D966400824782 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1182E412B5D966400824782 /* SnapKit */; };
+		A168391B2B63F8C2009A916D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168391A2B63F8C2009A916D /* CustomTableViewCell.swift */; };
+		A16839202B64FF18009A916D /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168391F2B64FF18009A916D /* ContactList.swift */; };
+		A1C7A9172B5E60F9009855FE /* MakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7A9162B5E60F9009855FE /* MakerView.swift */; };
+		A1C7A91A2B5E623B009855FE /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7A9192B5E623B009855FE /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1182E142B5D03C500824782 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1182E172B5D03C500824782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1182E192B5D03C500824782 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1182E1B2B5D03C500824782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A1182E1E2B5D03C500824782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1182E212B5D03C500824782 /* ContactsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactsApp.xcdatamodel; sourceTree = "<group>"; };
 		A1182E232B5D03C700824782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1182E262B5D03C700824782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1182E282B5D03C700824782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1182E312B5D048900824782 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		A1182E332B5D04F800824782 /* MyContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContactsViewController.swift; sourceTree = "<group>"; };
+		A168391A2B63F8C2009A916D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A168391F2B64FF18009A916D /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		A1C7A9162B5E60F9009855FE /* MakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerView.swift; sourceTree = "<group>"; };
+		A1C7A9192B5E623B009855FE /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1182E422B5D966400824782 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +68,68 @@
 		A1182E162B5D03C500824782 /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
-				A1182E172B5D03C500824782 /* AppDelegate.swift */,
-				A1182E192B5D03C500824782 /* SceneDelegate.swift */,
-				A1182E1B2B5D03C500824782 /* ViewController.swift */,
-				A1182E1D2B5D03C500824782 /* Main.storyboard */,
-				A1182E232B5D03C700824782 /* Assets.xcassets */,
-				A1182E252B5D03C700824782 /* LaunchScreen.storyboard */,
+				A168391C2B640FC6009A916D /* model */,
+				A1C7A9182B5E621C009855FE /* extensions */,
+				A1C7A9152B5E60E4009855FE /* helper */,
+				A1182E302B5D044900824782 /* recources */,
+				A1182E2F2B5D043D00824782 /* common */,
+				A1182E2E2B5D042C00824782 /* delegate */,
 				A1182E282B5D03C700824782 /* Info.plist */,
 				A1182E202B5D03C500824782 /* ContactsApp.xcdatamodeld */,
 			);
 			path = ContactsApp;
+			sourceTree = "<group>";
+		};
+		A1182E2E2B5D042C00824782 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A1182E192B5D03C500824782 /* SceneDelegate.swift */,
+				A1182E172B5D03C500824782 /* AppDelegate.swift */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
+		A1182E2F2B5D043D00824782 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				A1182E312B5D048900824782 /* LogInViewController.swift */,
+				A1182E332B5D04F800824782 /* MyContactsViewController.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		A1182E302B5D044900824782 /* recources */ = {
+			isa = PBXGroup;
+			children = (
+				A1182E252B5D03C700824782 /* LaunchScreen.storyboard */,
+				A1182E232B5D03C700824782 /* Assets.xcassets */,
+			);
+			path = recources;
+			sourceTree = "<group>";
+		};
+		A168391C2B640FC6009A916D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A168391F2B64FF18009A916D /* ContactList.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A1C7A9152B5E60E4009855FE /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				A168391A2B63F8C2009A916D /* CustomTableViewCell.swift */,
+				A1C7A9162B5E60F9009855FE /* MakerView.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		A1C7A9182B5E621C009855FE /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1C7A9192B5E623B009855FE /* UIColor.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +148,9 @@
 			dependencies = (
 			);
 			name = ContactsApp;
+			packageProductDependencies = (
+				A1182E412B5D966400824782 /* SnapKit */,
+			);
 			productName = ContactsApp;
 			productReference = A1182E142B5D03C500824782 /* ContactsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +179,9 @@
 				Base,
 			);
 			mainGroup = A1182E0B2B5D03C500824782;
+			packageReferences = (
+				A1182E402B5D966400824782 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = A1182E152B5D03C500824782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +198,6 @@
 			files = (
 				A1182E272B5D03C700824782 /* LaunchScreen.storyboard in Resources */,
 				A1182E242B5D03C700824782 /* Assets.xcassets in Resources */,
-				A1182E1F2B5D03C500824782 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1182E342B5D04F800824782 /* MyContactsViewController.swift in Sources */,
+				A1C7A91A2B5E623B009855FE /* UIColor.swift in Sources */,
+				A168391B2B63F8C2009A916D /* CustomTableViewCell.swift in Sources */,
+				A16839202B64FF18009A916D /* ContactList.swift in Sources */,
+				A1C7A9172B5E60F9009855FE /* MakerView.swift in Sources */,
 				A1182E222B5D03C500824782 /* ContactsApp.xcdatamodeld in Sources */,
-				A1182E1C2B5D03C500824782 /* ViewController.swift in Sources */,
 				A1182E182B5D03C500824782 /* AppDelegate.swift in Sources */,
+				A1182E322B5D048900824782 /* LogInViewController.swift in Sources */,
 				A1182E1A2B5D03C500824782 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +223,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A1182E1D2B5D03C500824782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1182E1E2B5D03C500824782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A1182E252B5D03C700824782 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,7 +365,6 @@
 				INFOPLIST_FILE = ContactsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,7 +392,6 @@
 				INFOPLIST_FILE = ContactsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -367,6 +429,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1182E402B5D966400824782 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1182E412B5D966400824782 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1182E402B5D966400824782 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A1182E202B5D03C500824782 /* ContactsApp.xcdatamodeld */ = {
