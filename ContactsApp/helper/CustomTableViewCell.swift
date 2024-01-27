@@ -45,7 +45,6 @@ class CustomTableViewCell: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
         contentView.addSubview(contactsCellView)
         contactsCellView.snp.makeConstraints { make in
             make.top.equalTo(contentView.snp.top)

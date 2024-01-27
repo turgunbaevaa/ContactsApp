@@ -107,7 +107,7 @@ class MyContactsViewController: UIViewController, UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
         
         cell.setImgData(contactList[indexPath.row].image, contactName: contactList[indexPath.row].contactName, mobileNumber: contactList[indexPath.row].mobileNumber)
-        //   cell.setImageData(image: images[indexPath.row])
+        cell.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: UIScreen.main.bounds.width)
         return cell
     }
     
