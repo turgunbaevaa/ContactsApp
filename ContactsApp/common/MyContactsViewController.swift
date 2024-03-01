@@ -36,20 +36,11 @@ class MyContactsViewController: UIViewController, UITableViewDataSource{
 
         setupUI()
         self.navigationItem.title = "My Contacts"
-
-        //// Create a custom back button with an image
-        ////let backButtonImage = UIImage(named: "back-arrow")//?.withRenderingMode(.alwaysOriginal)
-        ////let backButton = UIBarButtonItem(image: backButtonImage, style: .done, target: nil, action: nil)
-
-        //// Set the custom back button for the previous view controller
-        ////self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
     }
 
     private func setupUI(){
         view.backgroundColor = .white
         setupContactTableView()
-
-        //setupBackBtn()
     }
     
     private func setupBackBtn(){
@@ -61,15 +52,6 @@ class MyContactsViewController: UIViewController, UITableViewDataSource{
         }
     }
     
-//    private func setupBackBtn(){
-//        view.addSubview(backButton)
-//        backButton.snp.makeConstraints { make in
-//            make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(20)
-//            make.leading.equalTo(view.snp.leading).offset(15)
-//            make.height.width.equalTo(24)
-//        }
-//    }
-    
     private func setupContactTableView(){
         contactTableView.register(CustomTableViewCell.self, forCellReuseIdentifier: "cell")
         contactTableView.dataSource = self
@@ -80,18 +62,7 @@ class MyContactsViewController: UIViewController, UITableViewDataSource{
             make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-20)
         }
     }
-    
-//    private func setupContactTableView(){
-//        contactTableView.register(CustomTableViewCell.self, forCellReuseIdentifier: "cell")
-//        contactTableView.dataSource = self
-//        view.addSubview(contactTableView)
-//        contactTableView.snp.makeConstraints { make in
-//            make.top.equalTo(view.safeAreaLayoutGuide).offset(20)
-//            make.horizontalEdges.equalToSuperview().inset(15)
-//            make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-20)
-//        }
-//    }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         contactList.count
     }
@@ -99,10 +70,6 @@ class MyContactsViewController: UIViewController, UITableViewDataSource{
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        //        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        //        cell.textLabel?.text = "cell: \(indexPath.row)"
-        //        return cell
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
         
